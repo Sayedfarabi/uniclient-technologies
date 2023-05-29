@@ -1,0 +1,10 @@
+.brand-name {
+    font-size: 12px;
+    background: -webkit-linear-gradient(45deg, #6C38F8 -34.16%, #6C38F8 32.99%, #B461FD 100.13%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sub-brand-name {
+    font-size: 10px;
+}

@@ -1,0 +1,11 @@
+.ad-text {
+    background: -webkit-linear-gradient(180deg, #FFC947, #FC6739);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .fancy-link {
+    
+    background-image: linear-gradient(180deg, #FFC947, #FC6739);
+    background-size: 100% 3px;
+} */
