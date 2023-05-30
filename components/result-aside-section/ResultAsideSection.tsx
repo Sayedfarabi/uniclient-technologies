@@ -2,8 +2,8 @@ import Image from "next/image";
 import image from "../../assets/images/absolute/result.png";
 const ResultAsideSection = () => {
     return (
-        <div className="relative">
-            <div className="h-[450px] w-[400px] bg-[#FFFFFF] text-[#12141D] rounded-[10px] overflow-y-hidden overflow-x-clip ">
+        <div className="relative mx-auto">
+            <div className="h-[450px] w-full md:h-[450px] md:w-[400px] bg-[#FFFFFF] text-[#12141D] rounded-[10px] overflow-y-hidden overflow-x-clip">
                 <div className="mx-[27px] pt-[17px]">
                     <p className="text-[18px] font-medium">Result</p>
                     <p className="text-[14px] text-[#818488]">{"Here's what our AI came up with."}</p>

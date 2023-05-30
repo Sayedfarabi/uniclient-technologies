@@ -1,0 +1,15 @@
+.active-btn {
+    background: linear-gradient(94.25deg, #2B59FF 0%, #BB2BFF 100%);
+    border-radius: 5px;
+}
+
+.active-btn:hover,
+.inactive-btn:hover {
+    background: linear-gradient(94.25deg, #5C7FFF 0%, #CB5CFF 100%);
+    border-radius: 5px;
+}
+
+.inactive-btn {
+    /* border: 1px solid ; */
+    border-radius: 10px;
+}
