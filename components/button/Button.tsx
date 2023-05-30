@@ -1,10 +1,12 @@
 import "./button.css";
 
-const Button = () => {
+const Button = ({ children }: any) => {
     return (
         <div>
             <a href="" className="action">
-                <button className="btn gradient-button capitalize">Get Started Free</button>
+                <button className="btn gradient-button capitalize">
+                    {children}
+                </button>
             </a>
         </div>
     );

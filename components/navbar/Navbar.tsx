@@ -51,10 +51,13 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-end">
-                <button className="btn bg-[#12141D] mx-2 md:mx-3">Sign in</button>
-                <Button></Button>
+                <button className="btn bg-[#12141D] mx-2 md:mx-3 capitalize">Sign in</button>
+                <Button>
+                    Get Started Free
+                </Button>
             </div>
         </div>
+
     );
 };
 
