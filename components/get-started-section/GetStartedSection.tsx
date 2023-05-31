@@ -7,16 +7,16 @@ import ResultSecondSection from '../result-second-section/ResultSecondSection';
 const GetStartedSection = () => {
     return (
         <div>
-            <div className='flex-none md:flex md:justify-between md:items-center py-[100px] md:py-[175px]'>
-                <div>
+            <div className='flex-none lg:flex justify-between items-center py-[100px] md:py-[175px]'>
+                <div className='my-8 lg:my-0'>
                     <ResultAsideSection></ResultAsideSection>
                 </div>
                 <div>
                     <WritingAsideSection></WritingAsideSection>
                 </div>
             </div>
-            <div className='flex-none md:flex md:justify-between md:items-center'>
-                <div>
+            <div className='flex-none lg:flex justify-between items-center'>
+                <div className='my-8 lg:my-0'>
                     <WritingSecondSection></WritingSecondSection>
                 </div>
                 <div>

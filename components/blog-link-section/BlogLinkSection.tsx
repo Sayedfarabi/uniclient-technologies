@@ -34,7 +34,7 @@ const BlogLinkSection = () => {
         }
     ]
     return (
-        <div className="bg-[#282A37] min-w-full md:min-w-[740px] mx-auto md:mx-0">
+        <div className="bg-[#282A37] w-full md:w-[700px]">
             <div className="p-4 w-full">
                 <div className="flex">
                     <div className="w-[10px] h-[10px] bg-[#F23936] rounded-full mr-2"></div>

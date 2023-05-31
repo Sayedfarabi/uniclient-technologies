@@ -4,7 +4,7 @@ import MixlandHelpsButtonsSection from "../mixland-helps-buttons-section/Mixland
 const MixlandHelpsSection = () => {
 
     return (
-        <div className='pt-[35px] pb-[126px]'>
+        <div className='pt-8 pb-20 md:pb-28'>
             <div className='text-center text-[42px] mx-8'>
                 <h1>Mixland helps you <br />
                     build beautiful website</h1>

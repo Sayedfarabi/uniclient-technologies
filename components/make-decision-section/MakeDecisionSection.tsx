@@ -2,7 +2,7 @@
 
 const MakeDecisionSection = () => {
     const inactiveBtn = "inactive-btn bg-[#282A37] border border-[#12141D] p-2 md:p-3 capitalize w-full";
-    const activeBtn = "active-btn text-start w-full capitalize p-2 md:p-3 my-1";
+    const activeBtn = "active-btn text-center w-full capitalize p-2 md:p-3 capitalize";
 
     const cardData = [
         {
@@ -84,11 +84,11 @@ const MakeDecisionSection = () => {
             </div>
 
             <div>
-                <div className="grid grid-cols-1 md:grid-cols-3 md:gap-3">
+                <div className="flex-none md:flex justify-center items-start">
                     {
                         cardData.map(data => {
-                            return <div key={data?._id} className="w-[300px] min-h-[554px] bg-[#282A37] rounded-[15px] mx-auto">
-                                <div className="p-8 md:p-4 my-[30px]">
+                            return <div key={data?._id} className="w-[330px] min-h-[554px] bg-[#282A37] rounded-[15px] mx-auto md:mx-6">
+                                <div className="m-4 md:m-8 my-[30px]">
                                     <div className="h-[500px]">
                                         <div className="h-[200px]">
                                             <div className="mb-[28px]">

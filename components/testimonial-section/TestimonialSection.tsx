@@ -80,14 +80,14 @@ const TestimonialSection = () => {
     return (
         <div className="mx-20 pt-3 md:pt-5">
             <div className="pb-[60px] md:pb-[120px]">
-                <div className="text-center pt-[40px] md:pt-[88px]">
+                <div className="text-center py-[40px] md:py-[88px]">
                     <h1 className="text-[42px] mx-4 mb-[19px]">What our customers say</h1>
                     <p className="text-[18px] text-[#FAFAFA] mx-4">Read why thousands of marketers, writers, and <br /> entrepreneurs love us so much.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4">
                     {
                         testimonials.map(data => {
-                            return <div key={data?._id} className="w-[300px] bg-[#FFFFFF] rounded-md mx-auto text-[#12141D]">
+                            return <div key={data?._id} className="bg-[#FFFFFF] rounded-md mx-auto text-[#12141D]">
                                 <div className="px-[20px] py-[28px]">
                                     <div className="flex justify-between items-start mb-[25px]">
                                         <div className="flex justify-start items-center">
@@ -96,8 +96,7 @@ const TestimonialSection = () => {
                                                     <Image
                                                         src={data?.image}
                                                         alt="User"
-                                                        width={43}
-                                                        height={43}></Image>
+                                                    ></Image>
                                                 </div>
                                             </div>
                                             <div>

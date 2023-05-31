@@ -49,26 +49,7 @@ const Banner = () => {
 
             </div>
 
-            {/* <div className="flex justify-center items-center">
-                <button>
 
-                    <div>
-                        <Image
-                            className="mx-1"
-                            src={playIcon}
-                            alt="Play-Icon"
-                            width={15}
-                            height={15}>
-                        </Image>
-                    </div>
-
-                    <p className="text-[16px]">
-                        Watch A Demo
-                    </p>
-
-
-                </button>
-            </div> */}
         </div >
     );
 };

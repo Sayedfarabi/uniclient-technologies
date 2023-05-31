@@ -72,12 +72,12 @@ const WritingToolsSection = () => {
                 </p>
             </div>
             <div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {
                         toolsData.map(data => {
                             return <div
                                 key={data?._id}
-                                className="h-[120px] w-[300px] rounded-[10px] bg-[#282A37] mx-auto">
+                                className="w-full rounded-[10px] bg-[#282A37]">
                                 <div className="flex justify-center items-center">
                                     <div className="flex m-[22px]">
                                         <div className="mr-[17px]">
