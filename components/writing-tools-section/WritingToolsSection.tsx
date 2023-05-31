@@ -18,43 +18,43 @@ const WritingToolsSection = () => {
             body: "Write a better blog title with our A.I tool."
         },
         {
-            _id: "tools001",
+            _id: "tools002",
             icon: image2,
             title: "Blog Intros",
             body: "Generate a paragraph of blog content using Blog Intros tool"
         },
         {
-            _id: "tools001",
+            _id: "tools003",
             icon: image3,
             title: "Blog Outline",
             body: "Need an attention-grabbing headline for your article?"
         },
         {
-            _id: "tools001",
+            _id: "tools004",
             icon: image4,
             title: "Blog Conclusions",
             body: "Write a better conclusions with AI writing tool."
         },
         {
-            _id: "tools001",
+            _id: "tools005",
             icon: image5,
             title: "Content Rewriter",
             body: "Get AI writer to rewrite your sentence in a different way."
         },
         {
-            _id: "tools001",
+            _id: "tools006",
             icon: image6,
             title: "Product Description",
             body: "Need an attention-grabbing headline for your article?"
         },
         {
-            _id: "tools001",
+            _id: "tools007",
             icon: image7,
             title: "PAS Copywriting Formula",
             body: "Get AI writer to rewrite your sentence in a different way."
         },
         {
-            _id: "tools001",
+            _id: "tools008",
             icon: image8,
             title: "Company About Us",
             body: "Write a better blog title with our AI tool."
